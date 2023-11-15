@@ -1,8 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
   html {
     scroll-behavior: smooth;
@@ -14,11 +16,15 @@
 \*-----------------------------------*/
 
 
-  header{
+  #navbar{
     display: flex;
-    background-color: #242338;
     padding: 25px;
     justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    transition:  0.4s ;
+
   }
 
   header .logo{
@@ -37,6 +43,7 @@
     font-size: large;
     padding-top: 8px;
     padding-left: 90%;
+
   }
 
   header ul li {
@@ -61,7 +68,6 @@
       background-color: #fa533d;
       font-weight: 700;
       border: none;
-    
   }
 
   .Header-section-btn:hover{
@@ -69,12 +75,25 @@
     background-color: #fff;
 
   }
+
+
+  .bgchange-color{
+    background-color: #242338;  
+  }
   
+/*-----------------------------------*\
+  #HERO-SECTION
+\*-----------------------------------*/
+
+
+
   .Hero-section{
     background-image: url(./img/hero-bg.jpg);
     color: #fff;
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
+  
   }
 
   .Hero-section-img{
@@ -84,7 +103,7 @@
   }
 
   .Hero-section-text{
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left:180px;
     font-family:'Poppins', 'sans-serif';
 
@@ -176,4 +195,12 @@
   
   .social-icons li a > i.fa-github:hover {
     color: #171515;
+  }
+
+
+  .about-section{
+    margin:100px;
+    color:red;
+    background-color: red;
+    padding: 200px;
   }
