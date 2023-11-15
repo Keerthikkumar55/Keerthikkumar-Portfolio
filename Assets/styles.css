@@ -53,7 +53,7 @@
     color:#fa533d;
   }
     
-  .header-section-btn{
+  .Header-section-btn{
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
@@ -64,8 +64,116 @@
     
   }
 
-  .header-section-btn:hover{
+  .Header-section-btn:hover{
     color:#fa533d;
     background-color: #fff;
 
+  }
+  
+  .Hero-section{
+    background-image: url(./img/hero-bg.jpg);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Hero-section-img{
+     filter: drop-shadow(10px 8px 10px #131212);
+     margin-right: 150px;
+
+  }
+
+  .Hero-section-text{
+    margin-top: 70px;
+    margin-left:180px;
+    font-family:'Poppins', 'sans-serif';
+
+  }
+
+  .Hero-title{
+    font-family:'Poppins', 'sans-serif';
+    padding-bottom: 5px;
+  }
+
+  .Hero-title span {
+    font-size:35px;
+    padding-bottom: 5px;
+  }
+
+  .Hero-title strong{
+    font-size: 60px;
+  }
+
+  .Hero-text{
+    padding-bottom: 5px;
+    font-size: medium;
+  }
+
+  .btn-group{
+    margin: 8px;
+    margin-top: 20px;
+  }
+
+  .Hero-section-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #fa533d;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    margin-left: -10px;
+  
+  }
+
+  .Hero-section-btn:hover {
+    background-color: #fff;
+    color:#fa533d;
+
+  }
+
+  .simple-link{
+    color: #fff;
+    font-size: large;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+   
+
+  .simple-link:hover {
+    color:#142eb3;
+  }
+
+  .social-icons{
+    margin: 20px 0 10px 0;
+  }
+  .social-icons li {
+    margin-right: 15px;
+  }
+  
+  ul.social-icons {
+    list-style: none;
+    display: flex;
+  }
+  .social-icons li > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+  }  
+
+  .social-icons li a > i.fa-linkedin:hover {
+    color: #0072b1;
+  }
+  
+  .social-icons li a > i.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;  }
+  
+  .social-icons li a > i.fa-github:hover {
+    color: #171515;
   }
