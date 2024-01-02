@@ -1,9 +1,6 @@
 'use strict';
-
-
-
 /**
- * navbar
+ * Fixed Navbar
  */
 
 function scrollValue() {
